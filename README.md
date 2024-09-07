@@ -5,12 +5,10 @@ O Cultivando Conhecimento é uma plataforma web desenvolvida durante a Imersão 
 
 ## Tecnologias Utilizadas
 * **Frontend:** HTML, CSS, JavaScript
-* **Framework:** [Nome do framework utilizado, se houver, como React ou Vue.js]
-* **Bibliotecas:** [Nome das bibliotecas utilizadas, como Bootstrap, Material UI]
 
 ## Funcionalidades
 * **Busca por planta:** Permite encontrar informações sobre uma planta específica através de seu nome científico ou popular.
-* **Filtros:** Permite filtrar as plantas por tipo (frutíferas, ornamentais, medicinais), nível de cuidado (fácil, médio, difícil), clima e outras características.
+* **Filtros:** Permite filtrar as plantas por tipo (comestíveis, ornamentais).
 * **Guia completo:** Oferece informações detalhadas sobre cada planta, incluindo:
     * Características da planta
     * Condições ideais de cultivo
