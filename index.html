@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>O Grande Guia da Jardinagem</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>O GRANDE GUIA DA JARDINAGEM</h1>
+    </header>
+    <main>
+      <section class="menu">
+        <div class="menu-categoria">
+          <label for="categoria">Escolha por categoria:</label>
+          <select id="categoria">
+            <option value="ambos">Ambos</option>
+            <option value="comestiveis">Comestíveis</option>
+            <option value="ornamentais">Ornamentais</option>
+          </select>
+        </div>
+        <div class="menu-pesquisa">
+          <label for="pesquisaPlanta">Busque por uma planta:</label>
+          <input
+            type="text"
+            id="pesquisaPlanta"
+            placeholder="Digite o nome da planta"
+          />
+        </div>
+        <button onclick="pesquisar()">Mostrar</button>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>2024 - Jardinagem de Apartamento. Todos os direitos reservados</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
